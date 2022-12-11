@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid silver;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+  background-color: #f8f9fa;
+}
+header img {
+  width: 200px;
+  height: 100px;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-left: 25px;
+  font-size: 18px;
+  color: #212529;
+  padding: 10px;
+  border: 1px solid #f8f9fa;
+}
+header ul li:active {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px 20px;
+  width: 1200px;
+  margin: 80px 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(5, 350px);
+  justify-content: space-evenly;
+  row-gap: 50px;
+  margin-bottom: 100px;
+}
+.products i {
+  color: yellow;
+}
+.products .hover {
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: -50px;
+  transition: all 0.3s ease-in-out;
+}
+.products .product1 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.products .product1:hover .hover {
+  bottom: 0;
+}
+.products .product2 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.products .product2:hover .hover {
+  bottom: 0;
+}
+.products .product3 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.products .product3:hover .hover {
+  bottom: 0;
+}
+.products .product4 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.products .product4:hover .hover {
+  bottom: 0;
+}
+.products .product5 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product5:hover .hover {
+  bottom: 0;
+}
+.products .product6 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product6:hover .hover {
+  bottom: 0;
+}
+.products .product7 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product7:hover .hover {
+  bottom: 0;
+}
+.products .product8 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product8:hover .hover {
+  bottom: 0;
+}
+.products .product9 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product9:hover .hover {
+  bottom: 0;
+}
+.products .product10 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product10:hover .hover {
+  bottom: 0;
+}
+.products .product11 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product11:hover .hover {
+  bottom: 0;
+}
+.products .product12 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product12:hover .hover {
+  bottom: 0;
+}
+.products .product13 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product13:hover .hover {
+  bottom: 0;
+}
+.products .product14 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product14:hover .hover {
+  bottom: 0;
+}
+.products .product15 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product15:hover .hover {
+  bottom: 0;
+}
+.products .product16 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product16:hover .hover {
+  bottom: 0;
+}
+.products .product17 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product17:hover .hover {
+  bottom: 0;
+}
+.products .product18 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product18:hover .hover {
+  bottom: 0;
+}
+.products .product19 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product19:hover .hover {
+  bottom: 0;
+}
+.products .product20 {
+  grid-column: span 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .product20:hover .hover {
+  bottom: 0;
+}
+
+.oxirgi {
+  display: flex;
+  background-color: white;
+  padding: 50px;
+}
+.oxirgi .lorem {
+  width: 250px;
+  height: 300px;
+}
+.oxirgi .lorem p {
+  margin: 50px 0;
+  font-size: 18px;
+}
+.oxirgi .lorem i {
+  margin-right: 50px;
+}
+.oxirgi .catalog {
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+}
+.oxirgi .catalog h2 {
+  color: #212529;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.oxirgi .catalog p {
+  margin: 10px 0;
+}
+.oxirgi .about {
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+}
+.oxirgi .about h2 {
+  color: #212529;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.oxirgi .about p {
+  margin: 10px 0;
+}
+.oxirgi .customer {
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+}
+.oxirgi .customer h2 {
+  color: #212529;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.oxirgi .customer p {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #212529;
+  padding: 20px;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer img {
+  height: 30px;
+}
+footer .footer p {
+  color: white;
+}
+footer .footer a {
+  color: white;
+  padding: 10px;
+  border: 1px solid #212529;
+}
+footer .footer a:active {
+  border: 1px solid white;
+  border-radius: 5px;
+}/*# sourceMappingURL=search.css.map */
